@@ -1,0 +1,127 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #4CAF50; /* Changed to a more vibrant green */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold; /* Make links bold */
+    transition: color 0.3s; /* Smooth color transition */
+}
+
+nav ul li a:hover {
+    color: #ffeb3b; /* Change link color on hover */
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px; /* Add rounded corners to sections */
+    background-color: #fff; /* White background for sections */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+.card {
+    width: 70%; /* Set the width to 70% of the parent container */
+    max-width: 500px; /* Optional: Set a maximum width */
+    height: auto;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.2s, box-shadow 0.2s; /* Transition for scale and shadow */
+}
+
+.card:hover {
+    transform: scale(1.03); /* Slightly increase the scale on hover */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Deeper shadow on hover */
+}
+
+.project, .certification {
+    margin-bottom: 20px;
+}
+
+/* Centering and sizing the certificate images */
+.certification {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+}
+
+.cert-image {
+    width: 70%; /* Set the width to 70% of the parent container */
+    max-width: 500px; /* Optional: Set a maximum width */
+    height: auto;
+    border: 1px solid #ccc; /* Add a border for better visibility */
+    margin-bottom: 10px; /* Add some space below the image */
+    border-radius: 5px; /* Rounded corners for images */
+}
+
+h1, h2, h3 {
+    color: #333; /* Darker color for headings */
+}
+
+h1 {
+    font-size: 2.5em; /* Larger font size for main title */
+}
+
+h2 {
+    font-size: 2em; /* Slightly larger font size for section titles */
+    margin-bottom: 10px; /* Add space below section titles */
+}
+
+h3 {
+    font-size: 1.5em; /* Size for project and certification titles */
+    margin-bottom: 5px; /* Add space below project/certification titles */
+}
+
+p {
+    margin: 10px 0; /* Add margin to paragraphs for better spacing */
+    color: #555; /* Softer color for paragraph text */
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333; /* Dark footer */
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* New styles for
+/* New styles for About Me section */
+.about-content {
+    display: flex;
+    align-items: center; /* Aligns items vertically centered */
+}
+
+.about-image {
+    width: 150px; /* Adjust the width as needed */
+    height: auto; /* Maintains aspect ratio */
+    margin-right: 20px; /* Adds space between the image and text */
+    border-radius: 10px; /* Optional: rounds the corners of the image */
+}

@@ -44,6 +44,14 @@ section {
     max-width: 800px; /* Optional: Set a maximum width for the section */
 }
 
+.card-container {
+    display: flex;
+    flex-direction: column; /* Stack cards vertically */
+    align-items: center; /* Center cards horizontally */
+    justify-content: center; /* Center cards vertically */
+    margin: 20px auto; /* Center container */
+}
+
 .card {
     width: 70%; /* Set the width to 70% of the parent container */
     max-width: 500px; /* Optional: Set a maximum width */
@@ -54,7 +62,7 @@ section {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     padding: 20px;
     transition: transform 0.2s, box-shadow 0.2s; /* Transition for scale and shadow */
-    margin: 0 auto; /* Center the card */
+    margin: 10px 0; /* Add margin to create space between cards */
 }
 
 .card:hover {
@@ -122,11 +130,4 @@ footer {
     display: flex;
     flex-direction: column; /* Stack image and text vertically */
     align-items: center; /* Center items horizontally */
-    text-align: center; /* Center text */
-}
-
-.about-image {
-    width: 150px; /* Adjust the width as needed */
-    height: auto; /* Maintains aspect ratio */
-    margin-bottom: 20px; /* Adds space below the image */
-    border-radius: 10px
+    text-align: center; /* Center

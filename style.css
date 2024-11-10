@@ -16,7 +16,6 @@ header {
 nav ul {
     list-style: none;
     padding: 0;
-    text-align: center; /* Center the navigation links */
 }
 
 nav ul li {
@@ -37,19 +36,10 @@ nav ul li a:hover {
 
 section {
     padding: 20px;
-    margin: 20px auto; /* Center the section */
+    margin: 20px;
     border-radius: 8px; /* Add rounded corners to sections */
     background-color: #fff; /* White background for sections */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
-    max-width: 800px; /* Optional: Set a maximum width for the section */
-}
-
-.card-container {
-    display: flex;
-    flex-direction: column; /* Stack cards vertically */
-    align-items: center; /* Center cards horizontally */
-    justify-content: center; /* Center cards vertically */
-    margin: 20px auto; /* Center container */
 }
 
 .card {
@@ -62,7 +52,6 @@ section {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     padding: 20px;
     transition: transform 0.2s, box-shadow 0.2s; /* Transition for scale and shadow */
-    margin: 10px 0; /* Add margin to create space between cards */
 }
 
 .card:hover {
@@ -92,7 +81,6 @@ section {
 
 h1, h2, h3 {
     color: #333; /* Darker color for headings */
-    text-align: center; /* Center the headings */
 }
 
 h1 {
@@ -112,7 +100,6 @@ h3 {
 p {
     margin: 10px 0; /* Add margin to paragraphs for better spacing */
     color: #555; /* Softer color for paragraph text */
-    text-align: center; /* Center the paragraph text */
 }
 
 footer {
@@ -128,6 +115,12 @@ footer {
 /* New styles for About Me section */
 .about-content {
     display: flex;
-    flex-direction: column; /* Stack image and text vertically */
-    align-items: center; /* Center items horizontally */
-    text-align: center; /* Center
+    align-items: center; /* Aligns items vertically centered */
+}
+
+.about-image {
+    width: 150px; /* Adjust the width as needed */
+    height: auto; /* Maintains aspect ratio */
+    margin-right: 20px; /* Adds space between the image and text */
+    border-radius: 10px; /* Optional: rounds the corners of the image */
+}

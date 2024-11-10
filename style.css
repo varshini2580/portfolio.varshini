@@ -43,9 +43,6 @@ section {
 }
 
 .card {
-    width: 70%; /* Set the width to 70% of the parent container */
-    max-width: 500px; /* Optional: Set a maximum width */
-    height: auto;
     background: #fff;
     border: 1px solid #ccc;
     border-radius: 8px;
@@ -112,6 +109,7 @@ footer {
     width: 100%;
 }
 
+/* New styles for
 /* New styles for About Me section */
 .about-content {
     display: flex;
